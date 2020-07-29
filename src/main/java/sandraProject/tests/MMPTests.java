@@ -146,6 +146,10 @@ public class MMPTests {
 		Assert.assertTrue(rflag, "Appointment Details not Matched");
 
 	}
+	@Test(priority=12)
+	public void registerPatient() {
+		
+	}
 
 	@AfterClass
 	public void finalMethod() {
